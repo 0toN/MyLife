@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:id="@+id/edit_profile_fragment"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent"
+    a:background="#66000000" >
+
+    <RelativeLayout
+        a:layout_width="300dp"
+        a:layout_height="wrap_content"
+        a:layout_centerHorizontal="true"
+        a:layout_marginTop="140dp"
+        a:background="@drawable/dialog_fragment_bg_shape" >
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_marginLeft="12dp"
+            a:layout_marginTop="12dp"
+            a:text="编辑个人信息"
+            a:textColor="@android:color/black"
+            a:textSize="20sp" />
+
+        <com.makeramen.RoundedImageView
+            a:id="@+id/iv_head_portrait"
+            a:layout_width="75dp"
+            a:layout_height="75dp"
+            a:layout_below="@id/tv_title"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="25dp"
+            a:background="@drawable/common_head_portrait_bg_shape"
+            a:src="@drawable/common_head_portrait"
+            app:corner_radius="5dp"
+            app:oval="true" />
+
+        <ImageView
+            a:id="@+id/iv_nickname"
+            a:layout_width="20dp"
+            a:layout_height="20dp"
+            a:layout_below="@id/iv_head_portrait"
+            a:layout_marginLeft="15dp"
+            a:layout_marginTop="35dp"
+            a:src="@drawable/ic_nickname" />
+
+        <EditText
+            a:id="@+id/et_nickname"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/iv_head_portrait"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="15dp"
+            a:layout_marginRight="15dp"
+            a:layout_marginTop="35dp"
+            a:layout_toRightOf="@id/iv_nickname"
+            a:background="@null"
+            a:hint="昵称"
+            a:singleLine="true"
+            a:textColor="@android:color/black"
+            a:textSize="16sp" />
+
+        <View
+            a:id="@+id/nickname_line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/et_nickname"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="15dp"
+            a:layout_toRightOf="@id/iv_nickname"
+            a:background="@color/common_line" />
+
+        <ImageView
+            a:id="@+id/iv_signature"
+            a:layout_width="20dp"
+            a:layout_height="20dp"
+            a:layout_below="@id/nickname_line"
+            a:layout_marginLeft="15dp"
+            a:layout_marginTop="15dp"
+            a:src="@drawable/ic_signature" />
+
+        <EditText
+            a:id="@+id/et_signature"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/nickname_line"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="15dp"
+            a:layout_marginRight="15dp"
+            a:layout_marginTop="15dp"
+            a:layout_toRightOf="@id/iv_signature"
+            a:background="@null"
+            a:hint="个性签名"
+            a:singleLine="true"
+            a:textColor="@android:color/black"
+            a:textSize="16sp" />
+
+        <View
+            a:id="@+id/signature_line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/et_signature"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="15dp"
+            a:layout_toRightOf="@id/iv_signature"
+            a:background="@color/common_line" />
+
+        <TextView
+            a:id="@+id/tv_cancel"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/signature_line"
+            a:layout_marginBottom="15dp"
+            a:layout_marginLeft="160dp"
+            a:layout_marginTop="30dp"
+            a:background="?android:attr/selectableItemBackground"
+            a:text="取消"
+            a:textColor="#666666"
+            a:textSize="18sp" />
+
+        <TextView
+            a:id="@+id/tv_confirm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:layout_below="@id/signature_line"
+            a:layout_marginBottom="15dp"
+            a:layout_marginRight="30dp"
+            a:layout_marginTop="30dp"
+            a:background="?android:attr/selectableItemBackground"
+            a:text="确定"
+            a:textColor="#666666"
+            a:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

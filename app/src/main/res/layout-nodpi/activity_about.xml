@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#F8F9Fb"
+    a:clipToPadding="true"
+    tools:context="cn.edu.tsu.se.mylife.ui.book.BookActivity" >
+
+    <RelativeLayout
+        a:id="@+id/layout_top"
+        a:layout_width="match_parent"
+        a:layout_height="55dp"
+        a:background="@color/main"
+        a:paddingLeft="15dp"
+        a:paddingRight="15dp" >
+
+        <ImageView
+            a:id="@+id/iv_back"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentLeft="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_back"
+            a:tint="@android:color/white" />
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true"
+            a:singleLine="true"
+            a:text="关于应用"
+            a:textColor="@android:color/white"
+            a:textSize="19sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/layout_top" >
+
+        <ImageView
+            a:id="@+id/iv_logo"
+            a:layout_width="80dp"
+            a:layout_height="80dp"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="40dp"
+            a:src="@drawable/ic_logo" />
+
+        <TextView
+            a:id="@+id/tv_name"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/iv_logo"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="15dp"
+            a:singleLine="true"
+            a:text="My Life"
+            a:textColor="#636666"
+            a:textSize="18sp" />
+
+        <TextView
+            a:id="@+id/tv_version"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/tv_name"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="8dp"
+            a:singleLine="true"
+            a:textColor="#868887"
+            a:textSize="14sp" />
+
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/tv_version"
+            a:layout_marginTop="45dp"
+            a:background="@android:color/white" >
+
+            <RelativeLayout
+                a:id="@+id/layout_feedback"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:background="@drawable/common_button_selector"
+                a:padding="15dp" >
+
+                <TextView
+                    a:id="@+id/tv_feedback"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_alignParentLeft="true"
+                    a:text="Bug&amp;建议反馈"
+                    a:textColor="#666666"
+                    a:textSize="16sp" />
+
+                <ImageView
+                    a:layout_width="15dp"
+                    a:layout_height="15dp"
+                    a:layout_alignParentRight="true"
+                    a:layout_centerVertical="true"
+                    a:src="@drawable/common_ic_go"
+                    a:tint="#666666" />
+            </RelativeLayout>
+
+            <View
+                a:id="@+id/line"
+                a:layout_width="match_parent"
+                a:layout_height="1px"
+                a:layout_below="@id/layout_feedback"
+                a:background="#E6E6E6" />
+
+            <RelativeLayout
+                a:id="@+id/layout_contact"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:layout_below="@id/line"
+                a:background="@drawable/common_button_selector"
+                a:padding="15dp" >
+
+                <TextView
+                    a:id="@+id/tv_contact"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_alignParentLeft="true"
+                    a:text="联系我"
+                    a:textColor="#666666"
+                    a:textSize="16sp" />
+
+                <TextView
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_alignParentRight="true"
+                    a:layout_centerVertical="true"
+                    a:text="QQ:1158726700"
+                    a:textColor="#868887"
+                    a:textSize="14sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignParentBottom="true"
+        a:layout_centerHorizontal="true"
+        a:layout_marginBottom="35dp"
+        a:text="Designed by Deepblue&amp;Luomu in TSU"
+        a:textColor="#BBBBBB"
+        a:textSize="10sp" />
+
+</RelativeLayout>

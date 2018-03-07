@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF6E40</color>
+    <color name="colorPrimary">#FF6E40</color>
+    <color name="colorPrimaryDark">#CC5833</color>
+    <color name="green">#00FF00</color>
+    <color name="thumbColor">#66aaaaaa</color>
+    <declare-styleable name="CustomAttributes"><attr format="float" name="rippleSpeed"/><attr format="boolean" name="showNumberIndicator"/><attr format="integer" name="max"/><attr format="integer" name="min"/><attr format="integer" name="value"/><attr format="integer" name="progress"/><attr format="dimension" name="ringWidth"/><attr format="boolean" name="check"/><attr format="dimension" name="checkBoxSize"/><attr format="dimension" name="thumbSize"/><attr format="integer" name="iconDrawable"/><attr format="dimension" name="iconSize"/><attr format="boolean" name="animate"/><attr format="float" name="rippleBorderRadius"/><attr format="boolean" name="clickAfterRipple"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="mutate_background"/><attr format="boolean" name="oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference" name="onDrawable"/><attr format="reference" name="offDrawable"/><attr format="reference" name="thumbDrawable"/><attr format="dimension|reference" name="thumb_margin"/><attr format="dimension|reference" name="thumb_marginTop"/><attr format="dimension|reference" name="thumb_marginBottom"/><attr format="dimension|reference" name="thumb_marginLeft"/><attr format="dimension|reference" name="thumb_marginRight"/><attr format="dimension|reference" name="thumb_width"/><attr format="dimension|reference" name="thumb_height"/><attr format="color|reference" name="onColor"/><attr format="color|reference" name="offColor"/><attr format="color|reference" name="thumbColor"/><attr format="color|reference" name="thumbPressedColor"/><attr format="integer" name="animationVelocity"/><attr format="integer" name="radius"/><attr format="float" name="measureFactor"/><attr format="dimension|reference" name="insetLeft"/><attr format="dimension|reference" name="insetRight"/><attr format="dimension|reference" name="insetTop"/><attr format="dimension|reference" name="insetBottom"/></declare-styleable>
+    <string name="app_name">MyLife-lib</string>
+    <style name="ContentAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置没有标题 -->
+        <item name="android:textSize">20sp</item>
+        <!-- 设置文本大小 -->
+        <item name="android:textColor">#F34141</item>
+        <item name="android:background">@android:color/background_light</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <!-- 取消应用启动默认预览画面（黑背景） -->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="Theme"/>
+    <style name="Theme.Light" parent="android:Theme.Light"/>
+    <style name="Theme.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.NoTitle.White">
+        <item name="android:background">@null</item>
+        <!-- <item name="android:windowBackground">@null</item> -->
+        <!-- <item name="android:windowIsTranslucent">true</item> -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!-- <item name="android:windowNoDisplay">true</item> -->
+    </style>
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>

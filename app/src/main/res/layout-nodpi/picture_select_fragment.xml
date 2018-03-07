@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:x="http://schemas.android.com/apk/res-auto"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent"
+    a:background="#66000000"
+    a:clipToPadding="false"
+    a:fitsSystemWindows="true" >
+
+    <RelativeLayout
+        a:layout_width="280dp"
+        a:layout_height="wrap_content"
+        a:layout_centerInParent="true"
+        a:background="@drawable/dialog_fragment_bg_shape" >
+
+        <TextView
+            a:id="@+id/tv_camera"
+            a:layout_width="fill_parent"
+            a:layout_height="50dp"
+            a:background="@drawable/edit_fragment_top_button_selector"
+            a:gravity="center_vertical"
+            a:paddingLeft="25dp"
+            a:text="拍照"
+            a:textColor="#404040"
+            a:textSize="18sp" />
+
+        <View
+            a:id="@+id/edit_line"
+            a:layout_width="fill_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/tv_camera"
+            a:background="@color/common_line" />
+
+        <TextView
+            a:id="@+id/tv_gallary"
+            a:layout_width="fill_parent"
+            a:layout_height="50dp"
+            a:layout_below="@id/edit_line"
+            a:background="@drawable/edit_fragment_bottom_button_selector"
+            a:gravity="center_vertical"
+            a:paddingLeft="25dp"
+            a:text="从相册选取"
+            a:textColor="#404040"
+            a:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

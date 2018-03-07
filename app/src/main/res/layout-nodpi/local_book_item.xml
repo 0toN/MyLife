@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.edu.tsu.se.mylife.ui.component.SlidingButtonView xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@drawable/common_button_selector"
+    tools:context="cn.edu.tsu.se.mylife.ui.book.BookActivity" >
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent" >
+
+        <RelativeLayout
+            a:id="@+id/layout_content"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:paddingTop="10dp" >
+
+            <TextView
+                a:id="@+id/tv_title"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_alignParentLeft="true"
+                a:layout_marginBottom="10dp"
+                a:layout_marginRight="20dp"
+                a:layout_toLeftOf="@+id/tv_date"
+                a:paddingLeft="15dp"
+                a:singleLine="true"
+                a:textColor="@android:color/black"
+                a:textSize="17sp" />
+
+            <TextView
+                a:id="@+id/tv_size"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_below="@id/tv_title"
+                a:layout_marginBottom="10dp"
+                a:layout_marginLeft="15dp"
+                a:layout_marginTop="5dp"
+                a:singleLine="true"
+                a:textColor="#444444"
+                a:textSize="14sp" />
+
+            <TextView
+                a:id="@id/tv_date"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_alignParentRight="true"
+                a:layout_marginRight="15dp"
+                a:layout_marginTop="2dp"
+                a:singleLine="true"
+                a:textColor="#888888"
+                a:textSize="14sp" />
+
+            <View
+                a:id="@+id/item_line"
+                a:layout_width="match_parent"
+                a:layout_height="1px"
+                a:layout_alignParentBottom="true"
+                a:background="@color/common_line" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            a:id="@+id/layout_button"
+            a:layout_width="wrap_content"
+            a:layout_height="75dp"
+            a:layout_toRightOf="@id/layout_content" >
+
+            <TextView
+                a:id="@+id/tv_upload"
+                a:layout_width="wrap_content"
+                a:layout_height="75dp"
+                a:background="@color/btn_click_gray_bg"
+                a:gravity="center"
+                a:padding="20dp"
+                a:text="上传至云端"
+                a:textColor="@android:color/white"
+                a:textSize="15dp" />
+
+            <TextView
+                a:id="@+id/tv_delete"
+                a:layout_width="wrap_content"
+                a:layout_height="75dp"
+                a:layout_toRightOf="@id/tv_upload"
+                a:background="@color/btn_click_red_bg"
+                a:gravity="center"
+                a:padding="20dp"
+                a:text="删除"
+                a:textColor="@android:color/white"
+                a:textSize="15dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</cn.edu.tsu.se.mylife.ui.component.SlidingButtonView>

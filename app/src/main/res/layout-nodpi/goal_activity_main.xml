@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="fill_parent"
+    a:layout_height="wrap_content"
+    tools:context="cn.edu.tsu.se.mylife.main.MainActivity" >
+
+    <TextView
+        a:id="@+id/tv_title"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignParentLeft="true"
+        a:layout_marginTop="10dp"
+        a:singleLine="false"
+        a:textColor="#777777"
+        a:textSize="16sp" />
+
+    <TextView
+        a:id="@+id/tv_txt1"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginRight="8dp"
+        a:layout_marginTop="10dp"
+        a:layout_toLeftOf="@+id/tv_time"
+        a:text="仅剩"
+        a:textColor="#999999"
+        a:textSize="14sp" />
+
+    <TextView
+        a:id="@id/tv_time"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginRight="8dp"
+        a:layout_marginTop="8dp"
+        a:layout_toLeftOf="@+id/tv_txt2"
+        a:textColor="#FF0000"
+        a:textSize="18sp" />
+
+    <TextView
+        a:id="@+id/tv_txt2"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignParentRight="true"
+        a:layout_marginTop="10dp"
+        a:text="天"
+        a:textColor="#999999"
+        a:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content" >
+
+    <RelativeLayout
+        a:id="@+id/layout_header_bg"
+        a:layout_width="match_parent"
+        a:layout_height="160dp"
+        a:layout_marginBottom="8dp"
+        a:background="@drawable/drawer_header_bg" >
+
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:background="#33000000"
+            a:paddingLeft="15dp" >
+
+            <com.makeramen.RoundedImageView
+                a:id="@+id/head_portrait"
+                a:layout_width="65dp"
+                a:layout_height="65dp"
+                a:layout_marginTop="50dp"
+                a:background="@drawable/common_head_portrait_bg_shape"
+                a:src="@drawable/common_head_portrait"
+                app:corner_radius="5dp"
+                app:oval="true" />
+
+            <TextView
+                a:id="@+id/nickname"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:layout_marginLeft="15dp"
+                a:layout_toRightOf="@id/head_portrait"
+                a:paddingTop="75dp"
+                a:singleLine="true"
+                a:text="非文艺普通青年"
+                a:textColor="@android:color/white"
+                a:textSize="18sp" />
+
+            <TextView
+                a:id="@+id/signature"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:layout_below="@id/head_portrait"
+                a:paddingTop="16dp"
+                a:singleLine="true"
+                a:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                a:textColor="@android:color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

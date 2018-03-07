@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/layout_spiner"
+    a:layout_width="wrap_content"
+    a:layout_height="wrap_content" >
+
+    <ListView
+        a:id="@+id/listview"
+        a:layout_width="65dp"
+        a:layout_height="wrap_content"
+        a:background="#FFFFFF"
+        a:dividerHeight="1px" />
+
+</FrameLayout>

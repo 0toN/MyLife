@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:layout_marginBottom="15dp"
+    a:background="#FFFFFF"
+    a:padding="10dp"
+    tools:context="cn.edu.tsu.se.mylife.ui.dialog.TripActivity" >
+
+    <TextView
+        a:id="@+id/tv_date"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginLeft="19dp"
+        a:gravity="center"
+        a:singleLine="true"
+        a:textColor="@android:color/black"
+        a:textSize="18sp" />
+
+</RelativeLayout>

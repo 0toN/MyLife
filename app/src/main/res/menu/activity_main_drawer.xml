@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:a="http://schemas.android.com/apk/res/android" >
+
+    <group a:checkableBehavior="single" >
+        <item
+            a:id="@+id/nav_daily_record"
+            a:title="我的日志"/>
+        <item
+            a:id="@+id/nav_trip"
+            a:title="我的行程"/>
+        <item
+            a:id="@+id/nav_goal"
+            a:title="我的小目标"/>
+        <item
+            a:id="@+id/nav_book"
+            a:title="我的书籍"/>
+        <item
+            a:id="@+id/nav_check_for_updates"
+            a:title="检查更新"/>
+        <item
+            a:id="@+id/nav_about_app"
+            a:title="关于应用"/>
+        <item
+            a:id="@+id/nav_exit_login"
+            a:title="退出登录"/>
+    </group>
+
+</menu>

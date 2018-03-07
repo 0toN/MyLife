@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="btn_click_gray_bg">#C6C7CC</color>
+    <color name="btn_click_red_bg">#FF0000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="common_line">#D4D8D7</color>
+    <color name="drawer_list_view_title">#2D2D2D</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="light_blue">#6593CB</color>
+    <color name="main">#4A90EF</color>
+    <color name="toolbar_main_bgcolor">#4A90EF</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <drawable name="clr_normal">#00FFFFFF</drawable>
+    <drawable name="clr_pressed">#55D0D0D0</drawable>
+    <string name="app_name">My Life</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="mainToolBarTitle">My Life</string>
+    <string name="navigation_drawer_close">My Life</string>
+    <string name="navigation_drawer_open">My Life</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="title_activity_load">正在准备预览</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/toolbar_main_bgcolor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MyToolBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="toolBarMenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+</resources>

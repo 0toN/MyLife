@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res/cn.edu.tsu.se.mylife"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#F8F9Fb"
+    a:clipToPadding="true"
+    tools:context="cn.edu.tsu.se.mylife.ui.trip.AddTripActivity" >
+
+    <RelativeLayout
+        a:id="@+id/layout_top"
+        a:layout_width="match_parent"
+        a:layout_height="55dp"
+        a:background="@color/main"
+        a:paddingLeft="15dp"
+        a:paddingRight="15dp" >
+
+        <ImageView
+            a:id="@+id/iv_back"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentLeft="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_back"
+            a:tint="@android:color/white" />
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true"
+            a:singleLine="true"
+            a:text="添加行程"
+            a:textColor="@android:color/white"
+            a:textSize="19sp" />
+
+        <ImageView
+            a:id="@+id/iv_save"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentRight="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_save"
+            a:tint="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/layout_main"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/layout_top"
+        a:background="#FFFFFF" >
+
+        <ImageView
+            a:id="@+id/iv_content"
+            a:layout_width="23dp"
+            a:layout_height="23dp"
+            a:layout_marginBottom="18dp"
+            a:layout_marginLeft="15dp"
+            a:layout_marginTop="18dp"
+            a:src="@drawable/ic_trip_content"
+            a:tint="@color/main" />
+
+        <EditText
+            a:id="@+id/et_content"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginBottom="18dp"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="18dp"
+            a:layout_toRightOf="@id/iv_content"
+            a:background="@null"
+            a:hint="行程名称"
+            a:singleLine="true"
+            a:textColor="@android:color/black"
+            a:textSize="16sp" />
+
+        <View
+            a:id="@+id/content_line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/et_content"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="15dp"
+            a:layout_toRightOf="@id/iv_content"
+            a:background="@color/common_line" />
+
+        <ImageView
+            a:id="@+id/iv_date"
+            a:layout_width="23dp"
+            a:layout_height="23dp"
+            a:layout_below="@id/content_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginLeft="15dp"
+            a:layout_marginTop="18dp"
+            a:src="@drawable/ic_trip_date"
+            a:tint="@color/main" />
+
+        <RelativeLayout
+            a:id="@+id/layout_date"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/content_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginTop="18dp"
+            a:layout_toRightOf="@id/iv_date" >
+
+            <TextView
+                a:id="@+id/tv_date"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginLeft="10dp"
+                a:hint="选择日期"
+                a:textColor="@android:color/black"
+                a:textSize="16sp" />
+
+            <ImageView
+                a:id="@+id/iv_date_indicator"
+                a:layout_width="16dp"
+                a:layout_height="16dp"
+                a:layout_marginLeft="60dp"
+                a:layout_marginTop="2dp"
+                a:layout_toRightOf="@id/tv_date"
+                a:src="@drawable/ic_triangle"
+                a:tint="#888888" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            a:id="@+id/layout_time"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/content_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginTop="18dp"
+            a:layout_toRightOf="@id/layout_date" >
+
+            <TextView
+                a:id="@+id/tv_time"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginLeft="70dp"
+                a:hint="选择时间"
+                a:textColor="@android:color/black"
+                a:textSize="16sp" />
+
+            <ImageView
+                a:id="@+id/iv_time_indicator"
+                a:layout_width="16dp"
+                a:layout_height="16dp"
+                a:layout_alignParentRight="true"
+                a:layout_marginRight="15dp"
+                a:layout_marginTop="2dp"
+                a:src="@drawable/ic_triangle"
+                a:tint="#888888" />
+        </RelativeLayout>
+
+        <View
+            a:id="@+id/date_line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/layout_date"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="15dp"
+            a:layout_toRightOf="@id/iv_date"
+            a:background="@color/common_line" />
+
+        <ImageView
+            a:id="@+id/iv_notice"
+            a:layout_width="23dp"
+            a:layout_height="23dp"
+            a:layout_below="@id/date_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginLeft="15dp"
+            a:layout_marginTop="18dp"
+            a:src="@drawable/ic_trip_notice"
+            a:tint="@color/main" />
+
+        <TextView
+            a:id="@+id/tv_notice"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/date_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginLeft="10dp"
+            a:layout_marginTop="18dp"
+            a:layout_toRightOf="@id/iv_notice"
+            a:text="到点提醒"
+            a:textColor="@android:color/black"
+            a:textSize="16sp" />
+
+        <com.kyleduo.switchbutton.SwitchButton
+            a:id="@+id/switch_notice"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:layout_below="@id/date_line"
+            a:layout_marginBottom="18dp"
+            a:layout_marginRight="15dp"
+            a:layout_marginTop="18dp"
+            app1:onColor="@color/main" />
+
+        <View
+            a:id="@+id/notice_line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/tv_notice"
+            a:layout_marginLeft="10dp"
+            a:layout_marginRight="15dp"
+            a:layout_toRightOf="@id/iv_notice"
+            a:background="@color/common_line" />
+    </RelativeLayout>
+
+</RelativeLayout>

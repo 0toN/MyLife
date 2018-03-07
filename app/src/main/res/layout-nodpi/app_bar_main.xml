@@ -1,0 +1,53 @@
+<android.support.design.widget.CoordinatorLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    tools:context="cn.edu.tsu.se.mylife.main.MainActivity" >
+
+    <android.support.design.widget.AppBarLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content" >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlwaysCollapsed"
+            app:contentScrim="@color/main" >
+
+            <ImageView
+                a:layout_width="match_parent"
+                a:layout_height="200dp"
+                app:layout_collapseMode="parallax"
+                a:scaleType="centerCrop"
+                a:src="@drawable/main_bg" />
+
+            <android.support.v7.widget.Toolbar
+                a:id="@+id/toolbar_main"
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content"
+                a:gravity="center"
+                app:layout_collapseMode="pin"
+                a:theme="@style/AppTheme.AppBarOverlay"
+                app:popupTheme="@style/toolBarMenuStyle" >
+
+                <TextView
+                    a:id="@+id/toolbar_main_title"
+                    a:layout_width="match_parent"
+                    a:layout_height="wrap_content"
+                    a:paddingLeft="110dp"
+                    a:textColor="@android:color/white"
+                    a:textSize="20sp" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <include layout="@layout/content_main" />
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

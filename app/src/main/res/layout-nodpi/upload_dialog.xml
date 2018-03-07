@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#22000000" >
+
+    <RelativeLayout
+        a:id="@+id/layout_content"
+        a:layout_width="340dp"
+        a:layout_height="wrap_content"
+        a:layout_centerInParent="true"
+        a:background="@drawable/dialog_fragment_bg_shape"
+        a:paddingTop="15dp" >
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:layout_marginLeft="15dp"
+            a:text="提示"
+            a:textColor="#666666"
+            a:textSize="18sp" />
+
+        <RelativeLayout
+            a:id="@+id/layout_load"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/tv_title"
+            a:layout_centerHorizontal="true"
+            a:layout_marginBottom="20dp"
+            a:layout_marginTop="20dp" >
+
+            <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+                a:id="@+id/progressBar"
+                a:layout_width="26dp"
+                a:layout_height="26dp"
+                a:background="@color/main" />
+
+            <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_marginLeft="20dp"
+                a:layout_toRightOf="@id/progressBar"
+                a:text="正在上传中..."
+                a:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            a:id="@+id/line"
+            a:layout_width="fill_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/layout_load"
+            a:background="@color/common_line" />
+
+        <TextView
+            a:id="@+id/tv_cancel"
+            a:layout_width="match_parent"
+            a:layout_height="50dp"
+            a:layout_below="@id/line"
+            a:background="@drawable/edit_fragment_bottom_button_selector"
+            a:gravity="center"
+            a:text="取 消"
+            a:textColor="#404040"
+            a:textSize="17sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

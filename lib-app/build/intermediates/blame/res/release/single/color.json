@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\11587\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.3.0.aar\\9d15940339c414c4aa469573a6a1ac65\\res\\color\\switch_thumb_material_light.xml"
+    }
+]

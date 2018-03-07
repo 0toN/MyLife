@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:a="http://schemas.android.com/apk/res/android"
+    package="cn.edu.tsu.se.mylife"
+    a:versionCode="1"
+    a:versionName="1.0.0" >
+
+    <uses-sdk
+        a:minSdkVersion="14"
+        a:targetSdkVersion="19" />
+
+    <uses-permission a:name="android.permission.INTERNET" />
+    <uses-permission a:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission a:name="android.permission.VIBRATE" />
+    <uses-permission a:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission a:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission a:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission a:name="android.permission.CAMERA" />
+    <uses-permission a:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission a:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission a:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        a:allowBackup="true"
+        a:debuggable="true"
+        a:icon="@drawable/ic_launcher"
+        a:label="@string/app_name"
+        a:theme="@style/ContentAppTheme" >
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.splash.SplashActivity"
+            a:label="@string/app_name"
+            a:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action a:name="android.intent.action.MAIN" />
+
+                <category a:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.login.LoginAndRegisterActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar"
+            a:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.main.MainActivity"
+            a:label="@string/app_name"
+            a:launchMode="singleTask"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.dialog.DialogActivity"
+            a:label="@string/app_name"
+            a:launchMode="singleTask"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.dialog.AddOrEditDialogActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.trip.TripActivity"
+            a:label="@string/app_name"
+            a:launchMode="singleTask"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.trip.AddTripActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.goal.GoalActivity"
+            a:label="@string/app_name"
+            a:launchMode="singleTask"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.goal.AddOrEditGoalActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.book.BookActivity"
+            a:label="@string/app_name"
+            a:launchMode="singleTask"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.book.pdf.PDFLoadActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.book.pdf.PDFActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.book.pdf.PDFLoadActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.book.pdf.PDFActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.about.AboutActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            a:name="cn.edu.tsu.se.mylife.ui.about.FeedbackActivity"
+            a:label="@string/app_name"
+            a:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+
+        <receiver
+            a:name="cn.edu.tsu.se.mylife.notify.NotificationReceiver"
+            a:label="@string/app_name" >
+            <intent-filter>
+                <action a:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category a:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

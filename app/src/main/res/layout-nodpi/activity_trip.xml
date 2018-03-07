@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#EDEDED"
+    tools:context="cn.edu.tsu.se.mylife.ui.dialog.TripActivity" >
+
+    <RelativeLayout
+        a:id="@+id/layout_top"
+        a:layout_width="match_parent"
+        a:layout_height="55dp"
+        a:background="@color/main"
+        a:paddingLeft="15dp"
+        a:paddingRight="15dp" >
+
+        <ImageView
+            a:id="@+id/iv_back"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentLeft="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_back"
+            a:tint="@android:color/white" />
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true"
+            a:singleLine="true"
+            a:text="行程"
+            a:textColor="@android:color/white"
+            a:textSize="19sp" />
+
+        <ImageView
+            a:id="@+id/iv_add"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentRight="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_add"
+            a:tint="@android:color/white" />
+    </RelativeLayout>
+
+    <ExpandableListView
+        a:id="@+id/expandablelistview"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/layout_top"
+        a:childDivider="#FFFFFF"
+        a:divider="#EDEDED"
+        a:dividerHeight="15dp" />
+
+    <TextView
+        a:id="@+id/tv_empty"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/layout_top"
+        a:gravity="center"
+        a:text="暂无行程"
+        a:textColor="#A4A6A5"
+        a:textSize="14sp"
+        a:visibility="gone" />
+
+    <FrameLayout
+        a:id="@+id/trip_fragment_container"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:fitsSystemWindows="true" />
+
+</RelativeLayout>

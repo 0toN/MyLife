@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="fill_parent"
+    a:layout_height="wrap_content"
+    tools:context="cn.edu.tsu.se.mylife.main.MainActivity" >
+
+    <TextView
+        a:id="@+id/tv_title"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignParentLeft="true"
+        a:layout_marginRight="15dp"
+        a:layout_marginTop="10dp"
+        a:layout_toLeftOf="@+id/tv_time"
+        a:singleLine="false"
+        a:textColor="#777777"
+        a:textSize="16sp" />
+
+    <TextView
+        a:id="@id/tv_time"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_alignParentRight="true"
+        a:layout_marginTop="10dp"
+        a:textColor="#999999"
+        a:textSize="14sp" />
+
+</RelativeLayout>

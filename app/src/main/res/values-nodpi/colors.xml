@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="clr_pressed">#55D0D0D0</drawable>
+    <drawable name="clr_normal">#00FFFFFF</drawable>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main">#4A90EF</color>
+    <color name="common_line">#D4D8D7</color>
+    <color name="toolbar_main_bgcolor">#4A90EF</color>
+    <color name="drawer_list_view_title">#2D2D2D</color>
+    <color name="btn_click_red_bg">#FF0000</color>
+    <color name="btn_click_gray_bg">#C6C7CC</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="light_blue">#6593CB</color>
+    
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

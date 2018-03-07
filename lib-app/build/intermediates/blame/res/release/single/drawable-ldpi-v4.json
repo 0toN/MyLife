@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi-v4\\sprite_check.png",
+        "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\lib-app\\src\\main\\res\\drawable-ldpi\\sprite_check.png"
+    }
+]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/head_view"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/light_blue" >
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_alignParentBottom="true"
+        a:paddingBottom="20dp"
+        a:paddingTop="20dp" >
+
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true" >
+
+            <ImageView
+                a:id="@+id/pull_icon"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginLeft="60dp"
+                a:background="@drawable/pull_icon_big" />
+
+            <ImageView
+                a:id="@+id/refreshing_icon"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginLeft="60dp"
+                a:background="@drawable/refreshing"
+                a:visibility="gone" />
+
+            <TextView
+                a:id="@+id/state_tv"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerInParent="true"
+                a:text="@string/pull_to_refresh"
+                a:textColor="@color/white"
+                a:textSize="16sp" />
+
+            <ImageView
+                a:id="@+id/state_iv"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginRight="8dp"
+                a:layout_toLeftOf="@id/state_tv"
+                a:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#F8F9Fb"
+    a:clipToPadding="true"
+    tools:context="cn.edu.tsu.se.mylife.ui.dialog.AddOrEditDialogActivity" >
+
+    <RelativeLayout
+        a:id="@+id/layout_top"
+        a:layout_width="match_parent"
+        a:layout_height="55dp"
+        a:background="@color/main"
+        a:paddingLeft="15dp"
+        a:paddingRight="15dp" >
+
+        <ImageView
+            a:id="@+id/iv_back"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentLeft="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_back"
+            a:tint="@android:color/white" />
+
+        <TextView
+            a:id="@+id/tv_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true"
+            a:singleLine="true"
+            a:text="写日志"
+            a:textColor="@android:color/white"
+            a:textSize="19sp" />
+
+        <ImageView
+            a:id="@+id/iv_save"
+            a:layout_width="25dp"
+            a:layout_height="25dp"
+            a:layout_alignParentRight="true"
+            a:layout_centerVertical="true"
+            a:background="@drawable/common_button_selector"
+            a:src="@drawable/common_ic_save"
+            a:tint="@android:color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/layout_main"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/layout_top"
+        a:background="#FAFAFA" >
+
+        <EditText
+            a:id="@+id/et_title"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="标题"
+            a:singleLine="true"
+            a:textColor="@android:color/black"
+            a:textSize="16sp" />
+
+        <TextView
+            a:id="@+id/tv_time"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:layout_below="@id/et_title"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginTop="10dp"
+            a:singleLine="true"
+            a:text="11月07日"
+            a:textColor="#7D7D7D"
+            a:textSize="14sp" />
+
+        <RelativeLayout
+            a:id="@+id/layout_mood"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:layout_below="@id/et_title"
+            a:layout_marginTop="10dp"
+            a:paddingRight="20dp" >
+
+            <ImageView
+                a:id="@+id/iv_mood"
+                a:layout_width="20dp"
+                a:layout_height="20dp"
+                a:layout_centerVertical="true"
+                a:src="@drawable/ic_mood_sunny" />
+        </RelativeLayout>
+
+        <View
+            a:id="@+id/line"
+            a:layout_width="match_parent"
+            a:layout_height="1px"
+            a:layout_below="@id/tv_time"
+            a:layout_marginLeft="15dp"
+            a:layout_marginRight="15dp"
+            a:background="@color/common_line" />
+
+        <ScrollView
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_below="@id/line" >
+
+            <EditText
+                a:id="@+id/et_content"
+                style="?android:attr/textViewStyle"
+                a:layout_width="match_parent"
+                a:layout_height="match_parent"
+                a:layout_marginBottom="20dp"
+                a:layout_marginLeft="20dp"
+                a:layout_marginRight="20dp"
+                a:layout_marginTop="10dp"
+                a:background="@null"
+                a:hint="记事..."
+                a:textColor="#171717"
+                a:textSize="16sp" />
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

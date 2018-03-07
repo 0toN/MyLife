@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    a:id="@+id/layout_drawer_item"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@drawable/common_button_selector"
+    a:clickable="true"
+    a:onClick="onItemClick" >
+
+    <ImageView
+        a:id="@+id/item_icon"
+        a:layout_width="20dp"
+        a:layout_height="20dp"
+        a:layout_marginLeft="15dp"
+        a:layout_marginTop="16dp"
+        a:src="@drawable/ic_dialog"
+        a:tint="#4A90EF" />
+
+    <TextView
+        a:id="@+id/item_title"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginLeft="15dp"
+        a:layout_marginTop="16dp"
+        a:layout_toRightOf="@id/item_icon"
+        a:singleLine="true"
+        a:textColor="@color/drawer_list_view_title"
+        a:textSize="15sp" />
+
+    <View
+        a:id="@+id/item_line"
+        a:layout_width="match_parent"
+        a:layout_height="1px"
+        a:layout_below="@id/item_title"
+        a:layout_marginTop="16dp"
+        a:background="@color/common_line"
+        a:visibility="invisible" />
+
+</RelativeLayout>

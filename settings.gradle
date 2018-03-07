@@ -1,0 +1,3 @@
+include ':lib-aFinal'
+include ':lib-app'
+include ':app'

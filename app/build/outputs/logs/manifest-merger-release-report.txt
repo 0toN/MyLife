@@ -1,0 +1,274 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+MERGED from [:lib-app] D:\Project\AndroidStudioProjects\MyLife\lib-app\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:lib-aFinal] D:\Project\AndroidStudioProjects\MyLife\lib-aFinal\build\intermediates\manifests\full\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\preference-v7-23.3.0.aar\70f0219d4f85a260ac84c5ee5348aa5e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\0556f121ff37b71b5e3c1c09de30c9d8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\5035d0d1744d04c5b6c7b72e107708e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\13e858423f42e94467856292a4114e43\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\f39b95999b63eb7e799cd9a98128b1b5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\4a22cc0283564f344c3012da3916496d\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:1-130:12
+	package
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+	xmlns:a
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:2:11-63
+	a:versionName
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:5:5-26
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+	a:versionCode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:4:5-22
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:7:5-9:35
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:7:5-9:35
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:7:5-9:35
+MERGED from [:lib-app] D:\Project\AndroidStudioProjects\MyLife\lib-app\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:lib-app] D:\Project\AndroidStudioProjects\MyLife\lib-app\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:lib-aFinal] D:\Project\AndroidStudioProjects\MyLife\lib-aFinal\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:lib-aFinal] D:\Project\AndroidStudioProjects\MyLife\lib-aFinal\build\intermediates\manifests\full\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\preference-v7-23.3.0.aar\70f0219d4f85a260ac84c5ee5348aa5e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:preference-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\preference-v7-23.3.0.aar\70f0219d4f85a260ac84c5ee5348aa5e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\0556f121ff37b71b5e3c1c09de30c9d8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\0556f121ff37b71b5e3c1c09de30c9d8\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\5035d0d1744d04c5b6c7b72e107708e4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.3.0.aar\5035d0d1744d04c5b6c7b72e107708e4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\13e858423f42e94467856292a4114e43\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\13e858423f42e94467856292a4114e43\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\f39b95999b63eb7e799cd9a98128b1b5\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\f39b95999b63eb7e799cd9a98128b1b5\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\4a22cc0283564f344c3012da3916496d\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\4a22cc0283564f344c3012da3916496d\AndroidManifest.xml:20:5-43
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:7:5-9:35
+INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:7:5-9:35
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:23:9-75
+	a:targetSdkVersion
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:9:9-32
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+	a:minSdkVersion
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:8:9-29
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:11:5-61
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:11:22-58
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:12:5-69
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:13:5-60
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:13:22-57
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:14:5-74
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:14:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:15:5-74
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:15:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:16:5-75
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.CAMERA
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:17:5-59
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:17:22-56
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:18:5-78
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:18:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:19:5-73
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:19:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:20:5-70
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:20:22-67
+application
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:22:5-128:19
+MERGED from [com.android.support:preference-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\preference-v7-23.3.0.aar\70f0219d4f85a260ac84c5ee5348aa5e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:preference-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\preference-v7-23.3.0.aar\70f0219d4f85a260ac84c5ee5348aa5e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\0556f121ff37b71b5e3c1c09de30c9d8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\design-23.3.0.aar\0556f121ff37b71b5e3c1c09de30c9d8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.3.0.aar\9d15940339c414c4aa469573a6a1ac65\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\13e858423f42e94467856292a4114e43\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.3.0.aar\13e858423f42e94467856292a4114e43\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\f39b95999b63eb7e799cd9a98128b1b5\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.3.0.aar\f39b95999b63eb7e799cd9a98128b1b5\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\4a22cc0283564f344c3012da3916496d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] C:\Users\11587\.gradle\caches\transforms-1\files-1.1\support-v4-23.3.0.aar\4a22cc0283564f344c3012da3916496d\AndroidManifest.xml:22:5-20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:25:9-35
+	a:icon
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:24:9-39
+	a:allowBackup
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:23:9-29
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:26:9-41
+activity#cn.edu.tsu.se.mylife.ui.splash.SplashActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:27:9-36:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:29:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:30:13-41
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:28:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:32:17-63
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:32:25-60
+category#android.intent.category.LAUNCHER
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:34:17-71
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:34:27-68
+activity#cn.edu.tsu.se.mylife.ui.login.LoginAndRegisterActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:37:9-42:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:39:13-39
+	a:windowSoftInputMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:41:13-62
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:40:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:38:13-76
+activity#cn.edu.tsu.se.mylife.ui.main.MainActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:43:9-48:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:45:13-39
+	a:launchMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:46:13-38
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:47:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:44:13-63
+activity#cn.edu.tsu.se.mylife.ui.dialog.DialogActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:49:9-54:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:51:13-39
+	a:launchMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:52:13-38
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:53:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:50:13-67
+activity#cn.edu.tsu.se.mylife.ui.dialog.AddOrEditDialogActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:55:9-59:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:57:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:58:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:56:13-76
+activity#cn.edu.tsu.se.mylife.ui.trip.TripActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:60:9-65:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:62:13-39
+	a:launchMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:63:13-38
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:64:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:61:13-63
+activity#cn.edu.tsu.se.mylife.ui.trip.AddTripActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:66:9-70:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:68:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:69:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:67:13-66
+activity#cn.edu.tsu.se.mylife.ui.goal.GoalActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:71:9-76:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:73:13-39
+	a:launchMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:74:13-38
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:75:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:72:13-63
+activity#cn.edu.tsu.se.mylife.ui.goal.AddOrEditGoalActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:77:9-81:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:79:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:80:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:78:13-72
+activity#cn.edu.tsu.se.mylife.ui.book.BookActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:82:9-87:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:84:13-39
+	a:launchMode
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:85:13-38
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:86:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:83:13-63
+activity#cn.edu.tsu.se.mylife.ui.book.pdf.PDFLoadActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:88:9-92:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:90:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:91:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:89:13-70
+activity#cn.edu.tsu.se.mylife.ui.book.pdf.PDFActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:93:9-97:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:95:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:96:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:94:13-66
+activity#cn.edu.tsu.se.mylife.ui.about.AboutActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:108:9-112:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:110:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:111:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:109:13-65
+activity#cn.edu.tsu.se.mylife.ui.about.FeedbackActivity
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:113:9-117:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:115:13-39
+	a:theme
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:116:13-50
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:114:13-68
+receiver#cn.edu.tsu.se.mylife.notify.NotificationReceiver
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:119:9-127:20
+	a:label
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:121:13-39
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:120:13-70
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.LAUNCHER
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:122:13-126:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:123:17-73
+	a:name
+		ADDED from D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml:123:25-70

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="#F8F9Fb"
+    tools:context="cn.edu.tsu.se.mylife.ui.login.LoginAndRegisterActivity" >
+
+    <ImageView
+        a:id="@+id/iv_logo"
+        a:layout_width="80dp"
+        a:layout_height="80dp"
+        a:layout_centerHorizontal="true"
+        a:layout_marginBottom="40dp"
+        a:layout_marginTop="80dp"
+        a:src="@drawable/ic_logo" />
+
+    <RelativeLayout
+        a:id="@+id/login_layout"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/iv_logo" >
+
+        <EditText
+            a:id="@+id/et_login_username"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="用户名"
+            a:inputType="number"
+            a:singleLine="true"
+            a:textSize="15sp" />
+
+        <View
+            a:id="@+id/login_username_line"
+            a:layout_width="match_parent"
+            a:layout_height="2px"
+            a:layout_below="@id/et_login_username"
+            a:background="@color/common_line" />
+
+        <EditText
+            a:id="@+id/et_login_passwd"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/login_username_line"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="密码"
+            a:inputType="number"
+            a:singleLine="true"
+            a:textSize="15sp" />
+
+        <View
+            a:id="@+id/login_passwd_line"
+            a:layout_width="match_parent"
+            a:layout_height="2px"
+            a:layout_below="@id/et_login_passwd"
+            a:background="@color/common_line" />
+
+        <TextView
+            a:id="@+id/tv_login"
+            a:layout_width="match_parent"
+            a:layout_height="46dp"
+            a:layout_below="@id/login_passwd_line"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="30dp"
+            a:background="@drawable/login_button_unable_bg_shape"
+            a:enabled="false"
+            a:gravity="center"
+            a:text="登录"
+            a:textColor="@android:color/white"
+            a:textSize="16sp" />
+
+        <TextView
+            a:id="@+id/tv_to_Register"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/tv_login"
+            a:layout_centerInParent="true"
+            a:layout_marginTop="30dp"
+            a:text="没有账号？去注册"
+            a:textColor="#1C9CFF"
+            a:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/register_layout"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:layout_below="@id/iv_logo"
+        a:visibility="invisible" >
+
+        <EditText
+            a:id="@+id/et_register_username"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="手机号"
+            a:inputType="number"
+            a:singleLine="true"
+            a:textSize="15sp" />
+
+        <View
+            a:id="@+id/register_username_line"
+            a:layout_width="match_parent"
+            a:layout_height="2px"
+            a:layout_below="@id/et_register_username"
+            a:background="@color/common_line" />
+
+        <EditText
+            a:id="@+id/et_register_passwd"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/register_username_line"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="密码"
+            a:inputType="number"
+            a:singleLine="true"
+            a:textSize="15sp" />
+
+        <View
+            a:id="@+id/register_passwd_line"
+            a:layout_width="match_parent"
+            a:layout_height="2px"
+            a:layout_below="@id/et_register_passwd"
+            a:background="@color/common_line" />
+
+        <EditText
+            a:id="@+id/et_register_confirm_passwd"
+            style="?android:attr/textViewStyle"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/register_passwd_line"
+            a:layout_marginBottom="10dp"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="15dp"
+            a:background="@null"
+            a:hint="确认密码"
+            a:inputType="number"
+            a:singleLine="true"
+            a:textSize="15sp" />
+
+        <View
+            a:id="@+id/register_confirm_passwd_line"
+            a:layout_width="match_parent"
+            a:layout_height="2px"
+            a:layout_below="@id/et_register_confirm_passwd"
+            a:background="@color/common_line" />
+
+        <TextView
+            a:id="@+id/tv_register"
+            a:layout_width="match_parent"
+            a:layout_height="46dp"
+            a:layout_below="@id/register_confirm_passwd_line"
+            a:layout_marginLeft="20dp"
+            a:layout_marginRight="20dp"
+            a:layout_marginTop="30dp"
+            a:background="@drawable/register_button_unable_bg_shape"
+            a:enabled="false"
+            a:gravity="center"
+            a:text="注册"
+            a:textColor="@android:color/white"
+            a:textSize="16sp" />
+
+        <TextView
+            a:id="@+id/tv_to_Login"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/tv_register"
+            a:layout_centerInParent="true"
+            a:layout_marginTop="30dp"
+            a:text="已有账号？去登录"
+            a:textColor="#2dd963"
+            a:textSize="13sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:id="@+id/layout_progressbar"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:background="#66000000"
+        a:visibility="gone" >
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+            a:id="@+id/progressbar"
+            a:layout_width="45dp"
+            a:layout_height="45dp"
+            a:layout_centerInParent="true"
+            a:background="@color/main" />
+    </RelativeLayout>
+
+</RelativeLayout>

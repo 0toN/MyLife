@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 3.0.1">
+
+    <issue
+        id="ResAuto"
+        severity="Fatal"
+        message="In Gradle projects, always use `http://schemas.android.com/apk/res-auto` for custom attributes"
+        category="Correctness"
+        priority="9"
+        summary="Hardcoded Package in Namespace"
+        explanation="In Gradle projects, the actual package used in the final APK can vary; for example,you can add a `.debug` package suffix in one version and not the other. Therefore, you should **not** hardcode the application package in the resource; instead, use the special namespace `http://schemas.android.com/apk/res-auto` which will cause the tools to figure out the right namespace for the resource regardless of the actual package used during the build."
+        errorLine1="    xmlns:app1=&quot;http://schemas.android.com/apk/res/cn.edu.tsu.se.mylife&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\res\layout-nodpi\activity_add_trip.xml"
+            line="4"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`cn.edu.tsu.se.mylife.ui.fragment.EditProfileFragment`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="import net.tsz.afinal.annotation.view.ViewInject;"
+        errorLine2="                                            ^">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\java\cn\edu\tsu\se\mylife\ui\fragment\EditProfileFragment.java"
+            line="21"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    SessionUtil.autoLogin(getActivity().getApplicationContext(), null);"
+        errorLine2="                                                             ^">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\java\cn\edu\tsu\se\mylife\ui\fragment\EditProfileFragment.java"
+            line="46"
+            column="62"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="This fragment should provide a default constructor (a public constructor with no arguments) (`cn.edu.tsu.se.mylife.ui.fragment.EditTripFragment`)"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="import net.tsz.afinal.annotation.view.ViewInject;"
+        errorLine2="                                           ^">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\java\cn\edu\tsu\se\mylife\ui\fragment\EditTripFragment.java"
+            line="22"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="ValidFragment"
+        severity="Fatal"
+        message="Avoid non-default constructors in fragments: use a default constructor plus `Fragment#setArguments(Bundle)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Fragment not instantiatable"
+        explanation="From the Fragment documentation:&#xA;**Every** fragment must have an empty constructor, so it can be instantiated when restoring its activity&apos;s state. It is strongly recommended that subclasses do not have other constructors with parameters, since these constructors will not be called when the fragment is re-instantiated; instead, arguments can be supplied by the caller with `setArguments(Bundle)` and later retrieved by the Fragment with `getArguments()`."
+        url="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        urls="http://developer.android.com/reference/android/app/Fragment.html#Fragment()"
+        errorLine1="    SessionUtil.autoLogin(getActivity().getApplicationContext(), null);"
+        errorLine2="                                                       ~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\java\cn\edu\tsu\se\mylife\ui\fragment\EditTripFragment.java"
+            line="52"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `cn.edu.tsu.se.mylife.ui.book.pdf.PDFLoadActivity`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="            a:name=&quot;cn.edu.tsu.se.mylife.ui.book.pdf.PDFLoadActivity&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml"
+            line="99"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DuplicateActivity"
+        severity="Fatal"
+        message="Duplicate registration for activity `cn.edu.tsu.se.mylife.ui.book.pdf.PDFActivity`"
+        category="Correctness"
+        priority="5"
+        summary="Activity registered more than once"
+        explanation="An activity should only be registered once in the manifest. If it is accidentally registered more than once, then subtle errors can occur, since attribute declarations from the two elements are not merged, so you may accidentally remove previous declarations."
+        errorLine1="            a:name=&quot;cn.edu.tsu.se.mylife.ui.book.pdf.PDFActivity&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="D:\Project\AndroidStudioProjects\MyLife\app\src\main\AndroidManifest.xml"
+            line="104"
+            column="13"/>
+    </issue>
+
+</issues>

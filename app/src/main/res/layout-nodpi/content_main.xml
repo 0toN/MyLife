@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:id="@+id/content_main"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:layout_marginBottom="15dp"
+    a:layout_marginTop="15dp"
+    tools:context="cn.edu.tsu.se.mylife.main.MainActivity"
+    tools:showIn="@layout/app_bar_main" >
+
+    <TextView
+        a:id="@+id/tv_network_error"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:gravity="center"
+        a:text="无网络连接"
+        a:textColor="#777777"
+        a:textSize="14sp"
+        a:visibility="gone" />
+
+    <RelativeLayout
+        a:id="@+id/layout_content"
+        a:layout_width="match_parent"
+        a:layout_marginLeft="12dp"
+        a:layout_marginRight="12dp"
+        a:layout_height="wrap_content" >
+
+        <LinearLayout
+            a:id="@+id/layout_saying"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_centerHorizontal="true"
+            a:background="@drawable/content_main_bg_shape"
+            a:orientation="vertical"
+            a:padding="10dp" >
+
+            <RelativeLayout
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content" >
+
+                <ImageView
+                    a:id="@+id/iv_saying_icon"
+                    a:layout_width="25dp"
+                    a:layout_height="25dp"
+                    a:src="@drawable/ic_saying"
+                    a:tint="@color/main" />
+
+                <TextView
+                    a:id="@+id/tv_saying_title"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginLeft="6dp"
+                    a:layout_marginTop="1dp"
+                    a:layout_toRightOf="@id/iv_saying_icon"
+                    a:text="名人名言"
+                    a:textColor="@android:color/black"
+                    a:textSize="17sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            a:id="@+id/layout_event"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/layout_saying"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="18dp"
+            a:background="@drawable/content_main_bg_shape"
+            a:orientation="vertical"
+            a:padding="10dp" >
+
+            <RelativeLayout
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content" >
+
+                <ImageView
+                    a:id="@+id/iv_event_icon"
+                    a:layout_width="25dp"
+                    a:layout_height="25dp"
+                    a:src="@drawable/ic_event"
+                    a:tint="@color/main" />
+
+                <TextView
+                    a:id="@+id/tv_event_title"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginLeft="6dp"
+                    a:layout_marginTop="1dp"
+                    a:layout_toRightOf="@id/iv_event_icon"
+                    a:text="今日提醒事项"
+                    a:textColor="@android:color/black"
+                    a:textSize="17sp" />
+
+                <TextView
+                    a:id="@+id/tv_trip_empty"
+                    a:layout_width="match_parent"
+                    a:layout_height="50dp"
+                    a:layout_below="@id/tv_event_title"
+                    a:gravity="center"
+                    a:text="暂无提醒事项"
+                    a:textColor="#777777"
+                    a:textSize="14sp"
+                    a:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            a:id="@+id/layout_goal"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_below="@id/layout_event"
+            a:layout_centerHorizontal="true"
+            a:layout_marginTop="18dp"
+            a:background="@drawable/content_main_bg_shape"
+            a:orientation="vertical"
+            a:padding="10dp" >
+
+            <RelativeLayout
+                a:layout_width="match_parent"
+                a:layout_height="wrap_content" >
+
+                <ImageView
+                    a:id="@+id/iv_goal_icon"
+                    a:layout_width="25dp"
+                    a:layout_height="25dp"
+                    a:src="@drawable/ic_main_goal"
+                    a:tint="@color/main" />
+
+                <TextView
+                    a:id="@+id/tv_goal_title"
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:layout_marginLeft="6dp"
+                    a:layout_marginTop="1dp"
+                    a:layout_toRightOf="@id/iv_goal_icon"
+                    a:text="目标倒计时"
+                    a:textColor="@android:color/black"
+                    a:textSize="17sp" />
+
+                <TextView
+                    a:id="@+id/tv_goal_empty"
+                    a:layout_width="match_parent"
+                    a:layout_height="50dp"
+                    a:layout_below="@id/tv_goal_title"
+                    a:gravity="center"
+                    a:text="暂无目标"
+                    a:textColor="#777777"
+                    a:textSize="14sp"
+                    a:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

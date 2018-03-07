@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res"/><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\build\generated\res\rs\release"/><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\build\generated\res\resValues\release"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res"><file name="dialog_main_hide_amination" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\dialog_main_hide_amination.xml" qualifiers="" type="anim"/><file name="dialog_main_show_amination" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\dialog_main_show_amination.xml" qualifiers="" type="anim"/><file name="dialog_root_hide_amin" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\dialog_root_hide_amin.xml" qualifiers="" type="anim"/><file name="dialog_root_show_amin" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\dialog_root_show_amin.xml" qualifiers="" type="anim"/><file name="fade_in" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\fade_in.xml" qualifiers="" type="anim"/><file name="fade_out" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\fade_out.xml" qualifiers="" type="anim"/><file name="progress_indeterminate_animation" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\progress_indeterminate_animation.xml" qualifiers="" type="anim"/><file name="slide_left_in" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\slide_left_in.xml" qualifiers="" type="anim"/><file name="slide_left_out" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\slide_left_out.xml" qualifiers="" type="anim"/><file name="slide_right_in" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\slide_right_in.xml" qualifiers="" type="anim"/><file name="slide_right_in_fast" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\slide_right_in_fast.xml" qualifiers="" type="anim"/><file name="slide_right_out" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\slide_right_out.xml" qualifiers="" type="anim"/><file name="snackbar_hide_animation" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\snackbar_hide_animation.xml" qualifiers="" type="anim"/><file name="snackbar_show_animation" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\anim\snackbar_show_animation.xml" qualifiers="" type="anim"/><file name="background_button" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_button.9.png" qualifiers="" type="drawable"/><file name="background_button_float" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_button_float.xml" qualifiers="" type="drawable"/><file name="background_button_rectangle" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_button_rectangle.xml" qualifiers="" type="drawable"/><file name="background_checkbox" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_checkbox.xml" qualifiers="" type="drawable"/><file name="background_checkbox_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_checkbox_check.xml" qualifiers="" type="drawable"/><file name="background_checkbox_uncheck" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_checkbox_uncheck.xml" qualifiers="" type="drawable"/><file name="background_progress" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_progress.xml" qualifiers="" type="drawable"/><file name="background_switch_ball_uncheck" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_switch_ball_uncheck.xml" qualifiers="" type="drawable"/><file name="background_transparent" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\background_transparent.xml" qualifiers="" type="drawable"/><file name="shadow_down" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\shadow_down.xml" qualifiers="" type="drawable"/><file name="shadow_right" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable\shadow_right.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="sprite_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-hdpi\sprite_check.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="sprite_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-ldpi\sprite_check.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="sprite_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-mdpi\sprite_check.png" qualifiers="mdpi-v4" type="drawable"/><file name="dialog_background" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\dialog_background.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="float_button1_shadowp" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\float_button1_shadowp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="float_button_shadow1" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\float_button_shadow1.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_reloj_max" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\ic_reloj_max.png" qualifiers="xhdpi-v4" type="drawable"/><file name="sprite_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xhdpi\sprite_check.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="sprite_check" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\drawable-xxhdpi\sprite_check.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="color_selector" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\layout\color_selector.xml" qualifiers="" type="layout"/><file name="dialog" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\layout\dialog.xml" qualifiers="" type="layout"/><file name="number_indicator_spinner" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\layout\number_indicator_spinner.xml" qualifiers="" type="layout"/><file name="progress_dialog" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\layout\progress_dialog.xml" qualifiers="" type="layout"/><file name="snackbar" path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\layout\snackbar.xml" qualifiers="" type="layout"/><file path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RoundedImageView">
+        <attr format="dimension" name="corner_radius"/>
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+        <attr format="boolean" name="mutate_background"/>
+        <attr format="boolean" name="oval"/>
+        <attr name="android:scaleType"/>
+    </declare-styleable><declare-styleable name="SwitchButton">
+        <attr format="reference" name="onDrawable"/>
+        <attr format="reference" name="offDrawable"/>
+        <attr format="reference" name="thumbDrawable"/>
+        <attr format="dimension|reference" name="thumb_margin"/>
+        <attr format="dimension|reference" name="thumb_marginTop"/>
+        <attr format="dimension|reference" name="thumb_marginBottom"/>
+        <attr format="dimension|reference" name="thumb_marginLeft"/>
+        <attr format="dimension|reference" name="thumb_marginRight"/>
+        <attr format="dimension|reference" name="thumb_width"/>
+        <attr format="dimension|reference" name="thumb_height"/>
+        <attr format="color|reference" name="onColor"/>
+        <attr format="color|reference" name="offColor"/>
+        <attr format="color|reference" name="thumbColor"/>
+        <attr format="color|reference" name="thumbPressedColor"/>
+        <attr format="integer" name="animationVelocity"/>
+        <attr format="integer" name="radius"/>
+        <attr format="float" name="measureFactor"/>
+        <attr format="dimension|reference" name="insetLeft"/>
+        <attr format="dimension|reference" name="insetRight"/>
+        <attr format="dimension|reference" name="insetTop"/>
+        <attr format="dimension|reference" name="insetBottom"/>
+    </declare-styleable><declare-styleable name="CustomAttributes">
+
+        
+        <attr format="float" name="rippleSpeed"/>
+        
+        <attr format="boolean" name="showNumberIndicator"/>
+        
+        <attr format="integer" name="max"/>
+        
+        <attr format="integer" name="min"/>
+        
+        <attr format="integer" name="value"/>
+        
+        <attr format="integer" name="progress"/>
+        <attr format="dimension" name="ringWidth"/>
+        
+        <attr format="boolean" name="check"/>
+        <attr format="dimension" name="checkBoxSize"/>
+        <attr format="dimension" name="thumbSize"/>
+        
+        <attr format="integer" name="iconDrawable"/>
+        
+        <attr format="dimension" name="iconSize"/>
+        
+        <attr format="boolean" name="animate"/>
+        
+        <attr format="float" name="rippleBorderRadius"/>
+        
+        <attr format="boolean" name="clickAfterRipple"/>
+    </declare-styleable></file><file path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#FF6E40</color><color name="colorPrimaryDark">#CC5833</color><color name="colorAccent">#FF6E40</color><color name="green">#00FF00</color><color name="thumbColor">#66aaaaaa</color></file><file path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">MyLife-lib</string></file><file path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme"/><style name="Theme.Light" parent="android:Theme.Light"/><style name="Theme.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="Theme.NoTitle.White">
+        <item name="android:background">@null</item>
+        
+        
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        
+    </style><style name="ContentAppTheme">
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:textSize">20sp</item>
+        
+        <item name="android:textColor">#F34141</item>
+        <item name="android:background">@android:color/background_light</item>
+        
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        
+        <item name="android:windowDisablePreview">true</item>
+    </style><style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style></file></source><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\build\generated\res\rs\release"/><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\release\res"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\Project\AndroidStudioProjects\MyLife\lib-app\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="mutate_background"/><attr format="boolean" name="oval"/><attr name="android:scaleType"/></declare-styleable><declare-styleable name="CustomAttributes"><attr format="float" name="rippleSpeed"/><attr format="boolean" name="showNumberIndicator"/><attr format="integer" name="max"/><attr format="integer" name="min"/><attr format="integer" name="value"/><attr format="integer" name="progress"/><attr format="dimension" name="ringWidth"/><attr format="boolean" name="check"/><attr format="dimension" name="checkBoxSize"/><attr format="dimension" name="thumbSize"/><attr format="integer" name="iconDrawable"/><attr format="dimension" name="iconSize"/><attr format="boolean" name="animate"/><attr format="float" name="rippleBorderRadius"/><attr format="boolean" name="clickAfterRipple"/></declare-styleable><declare-styleable name="SwitchButton"><attr format="reference" name="onDrawable"/><attr format="reference" name="offDrawable"/><attr format="reference" name="thumbDrawable"/><attr format="dimension|reference" name="thumb_margin"/><attr format="dimension|reference" name="thumb_marginTop"/><attr format="dimension|reference" name="thumb_marginBottom"/><attr format="dimension|reference" name="thumb_marginLeft"/><attr format="dimension|reference" name="thumb_marginRight"/><attr format="dimension|reference" name="thumb_width"/><attr format="dimension|reference" name="thumb_height"/><attr format="color|reference" name="onColor"/><attr format="color|reference" name="offColor"/><attr format="color|reference" name="thumbColor"/><attr format="color|reference" name="thumbPressedColor"/><attr format="integer" name="animationVelocity"/><attr format="integer" name="radius"/><attr format="float" name="measureFactor"/><attr format="dimension|reference" name="insetLeft"/><attr format="dimension|reference" name="insetRight"/><attr format="dimension|reference" name="insetTop"/><attr format="dimension|reference" name="insetBottom"/></declare-styleable></configuration></mergedItems></merger>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:orientation="vertical" >
+
+    <WebView
+        a:id="@+id/load_webview"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent" />
+
+</RelativeLayout>

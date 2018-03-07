@@ -1,0 +1,18 @@
+<cn.edu.tsu.se.mylife.ui.book.pdf.PullToRefreshLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/refresh_view"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent" >
+
+    <include layout="@layout/refresh_head" />
+
+    <cn.edu.tsu.se.mylife.ui.book.pdf.PullableListView
+        a:id="@+id/content_view"
+        a:layout_width="match_parent"
+        a:layout_height="match_parent"
+        a:background="@color/white"
+        a:divider="@color/gray"
+        a:dividerHeight="1dp" />
+
+    <include layout="@layout/load_more" />
+
+</cn.edu.tsu.se.mylife.ui.book.pdf.PullToRefreshLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/loadmore_view"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:background="@color/gray" >
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_alignParentTop="true"
+        a:paddingBottom="20dp"
+        a:paddingTop="20dp" >
+
+        <RelativeLayout
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_centerInParent="true" >
+
+            <ImageView
+                a:id="@+id/pullup_icon"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginLeft="60dp"
+                a:background="@drawable/pullup_icon_big" />
+
+            <ImageView
+                a:id="@+id/loading_icon"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginLeft="60dp"
+                a:background="@drawable/loading"
+                a:visibility="gone" />
+
+            <TextView
+                a:id="@+id/loadstate_tv"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerInParent="true"
+                a:text="@string/pullup_to_load"
+                a:textColor="@color/black"
+                a:textSize="16sp" />
+
+            <ImageView
+                a:id="@+id/loadstate_iv"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_centerVertical="true"
+                a:layout_marginRight="8dp"
+                a:layout_toLeftOf="@id/loadstate_tv"
+                a:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

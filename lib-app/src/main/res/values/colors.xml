@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="colorPrimary">#FF6E40</color>
+    <color name="colorPrimaryDark">#CC5833</color>
+    <color name="colorAccent">#FF6E40</color>
+    <color name="green">#00FF00</color>
+    <color name="thumbColor">#66aaaaaa</color>
+
+</resources>

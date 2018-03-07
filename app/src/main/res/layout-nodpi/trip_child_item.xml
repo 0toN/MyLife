@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    tools:context="cn.edu.tsu.se.mylife.ui.dialog.TripActivity" >
+
+    <ImageView
+        a:id="@+id/iv_point"
+        a:layout_width="25dp"
+        a:layout_height="25dp"
+        a:layout_marginLeft="6dp"
+        a:src="@drawable/ic_point"
+        a:tint="#FF0000" />
+
+    <TextView
+        a:id="@+id/tv_time"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginLeft="4dp"
+        a:layout_toRightOf="@id/iv_point"
+        a:singleLine="true"
+        a:textColor="#171717"
+        a:textSize="16sp" />
+
+    <TextView
+        a:id="@+id/tv_event"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_marginLeft="15dp"
+        a:layout_toRightOf="@id/tv_time"
+        a:singleLine="true"
+        a:textColor="#171717"
+        a:textSize="16sp" />
+
+</RelativeLayout>

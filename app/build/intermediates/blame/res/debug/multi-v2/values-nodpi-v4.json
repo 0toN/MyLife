@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Project\\AndroidStudioProjects\\MyLife\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nodpi-v4\\values-nodpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\app\\src\\main\\res\\values-nodpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "62,121,19",
+                        "endColumns": "57,55,41",
+                        "endOffsets": "115,172,56"
+                    },
+                    "to": {
+                        "startLines": "15,16,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "663,721,777",
+                        "endColumns": "57,55,41",
+                        "endOffsets": "716,772,814"
+                    }
+                },
+                {
+                    "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\app\\src\\main\\res\\values-nodpi\\styles.xml",
+                    "from": {
+                        "startLines": "3,16,11,30,22,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "57,550,394,1177,804,644",
+                        "endLines": "9,16,14,35,28,20",
+                        "endColumns": "12,90,12,12,12,12",
+                        "endOffsets": "386,636,542,1553,1153,796"
+                    },
+                    "to": {
+                        "startLines": "35,42,43,47,53,60",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1677,2005,2095,2245,2621,2969",
+                        "endLines": "41,42,46,52,59,62",
+                        "endColumns": "12,89,12,12,12,12",
+                        "endOffsets": "2000,2090,2240,2616,2964,3119"
+                    }
+                },
+                {
+                    "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\app\\src\\main\\res\\values-nodpi\\strings.xml",
+                    "from": {
+                        "startLines": "3,16,15,14,4,5,6,7,12,11,10,9,13,8,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,709,663,619,101,154,214,273,518,472,423,376,568,322,752",
+                        "endColumns": "44,42,45,43,52,59,58,48,49,45,48,46,50,53,54",
+                        "endOffsets": "96,747,704,658,149,209,268,317,563,513,467,418,614,371,802"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33,34",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "926,971,1014,1060,1104,1157,1217,1276,1325,1375,1421,1470,1517,1568,1622",
+                        "endColumns": "44,42,45,43,52,59,58,48,49,45,48,46,50,53,54",
+                        "endOffsets": "966,1009,1055,1099,1152,1212,1271,1320,1370,1416,1465,1512,1563,1617,1672"
+                    }
+                },
+                {
+                    "source": "D:\\Project\\AndroidStudioProjects\\MyLife\\app\\src\\main\\res\\values-nodpi\\colors.xml",
+                    "from": {
+                        "startLines": "20,14,13,8,6,7,10,12,15,16,9,11,19,4,3",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "762,570,518,270,170,218,357,460,623,663,317,404,721,114,59",
+                        "endColumns": "39,51,50,45,46,50,45,56,38,44,38,54,39,52,53",
+                        "endOffsets": "797,617,564,311,212,264,398,512,657,703,351,454,756,162,108"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,147,198,244,291,342,388,445,484,529,568,623,819,872",
+                        "endColumns": "39,51,50,45,46,50,45,56,38,44,38,54,39,52,53",
+                        "endOffsets": "90,142,193,239,286,337,383,440,479,524,563,618,658,867,921"
+                    }
+                }
+            ]
+        }
+    ]
+}
